@@ -7,6 +7,7 @@ import java.net.Socket;
 
 public class MyServer {
 	public static void main(String[] args) {
+		int a=null
 		try {
 			ServerSocket server=new ServerSocket(5678);
 			//after accept() method excuting , it will wait for client server to start on same port number
