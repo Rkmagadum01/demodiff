@@ -9,6 +9,8 @@ import java.net.UnknownHostException;
 public class MyClient {
 
 	public static void main(String[] args) {
+		int a=null;
+		boolean b;
 		try {
 			Socket socket = new Socket("localhost", 5678);
 			// DataInputStream input=new DataInputStream(System.in);
