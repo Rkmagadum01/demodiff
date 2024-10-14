@@ -30,6 +30,6 @@ public static void main(String[] args) {
  Collection c2 = c;  
      c2.add(1);//this throws exception  
      System.out.println(c2);  
-	
+ System.out.println(100/0); 	
 }
 }
